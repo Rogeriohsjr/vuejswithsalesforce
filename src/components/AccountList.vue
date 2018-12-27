@@ -3,7 +3,7 @@
     <div class="slds-page-header slds-page-header_vertical">
       <div class="slds-media slds-has-divider_bottom-space">
         <div class="slds-media__body">
-          <h1 class="slds-page-header__title">Account List Component</h1>
+          <h1 class="slds-page-header__title">Account List Component - Test Rogerio</h1>
         </div>
       </div>
       <ul>
