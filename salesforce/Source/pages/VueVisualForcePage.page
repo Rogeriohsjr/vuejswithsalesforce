@@ -1,0 +1,36 @@
+<apex:page sidebar="false" >
+    <h1>
+        Test Visualforce Page - VueVisualForcepage.vfp
+    </h1>
+    
+    <apex:includeLightning />
+    
+    <div id="lightning" />
+    
+    <script>
+    function addVueComponent(){
+        console.log('[addVueComponent] Start...');
+        try{
+            $Lightning.use("c:TestVueJS", function() {
+                console.log('Creating Component...');
+                try{
+                    $Lightning.createComponent("c:VueComponentTest",
+                                               {  },
+                                               "lightning",
+                                               function(cmp) {
+                                                   // do some stuff
+                                               });
+                }catch(error){
+                    console.log(error);
+                }
+            });
+            
+        }catch(error){
+            console.log(error);
+        }
+    }
+    
+    addVueComponent();
+    
+    </script>
+</apex:page>

@@ -9,6 +9,7 @@ const _accounts = [
 export default {
   getAccounts(callback) {
     if (process.env.NODE_ENV === "production") {
+      console.log('Calling Controller VueController.getAccounts');
       LCC.callApex(
         "VueController.getAccounts",
         (result, event) => {

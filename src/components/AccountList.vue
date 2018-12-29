@@ -25,8 +25,6 @@ export default {
   created() {
     console.log("Create Testing....");
 
-    parent.postMessage("Testing sending message from vue");
-
     if (!this.accounts) {
       this.$store.dispatch("getAllAccounts");
     }

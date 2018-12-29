@@ -1,0 +1,4 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<h1>Vue Lightning Component - VueLightningComponent.cmp</h1>
+    <lightning:container src="{!$Resource.vueApplication + '/index.html'}"/>
+</aura:component>
