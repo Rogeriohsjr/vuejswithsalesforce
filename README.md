@@ -30,11 +30,11 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 Sources:
 How to create the vue project and call a apex class
-https://medium.com/@ennoucas/creating-a-salesforce-application-with-vue-js-and-webpack-part-1-17c726484f1f
-https://medium.com/@ennoucas/salesforce-lightning-application-with-vue-js-and-webpack-part-2-af0071347274
+> https://medium.com/@ennoucas/creating-a-salesforce-application-with-vue-js-and-webpack-part-1-17c726484f1f
+> https://medium.com/@ennoucas/salesforce-lightning-application-with-vue-js-and-webpack-part-2-af0071347274
 
 How to add vue.js project into a lightning component.
-https://developer.salesforce.com/docs/component-library/bundle/lightning:container/documentation
+> https://developer.salesforce.com/docs/component-library/bundle/lightning:container/documentation
 
 How to make the Lightning Component with Vue.js Project available in Visualforce page.
-https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/components_visualforce.htm
+> https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/components_visualforce.htm
