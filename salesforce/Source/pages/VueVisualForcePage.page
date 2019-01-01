@@ -11,10 +11,10 @@
     function addVueComponent(){
         console.log('[addVueComponent] Start...');
         try{
-            $Lightning.use("c:TestVueJS", function() {
+            $Lightning.use("c:VueLightningApplication", function() {
                 console.log('Creating Component...');
                 try{
-                    $Lightning.createComponent("c:VueComponentTest",
+                    $Lightning.createComponent("c:VueLightningComponent",
                                                {  },
                                                "lightning",
                                                function(cmp) {
