@@ -41,9 +41,13 @@ You can create one here: https://developer.salesforce.com/signup
 
 3.2. npm run dev
 
+
 4. Then I access my localhost as the terminal suggested, and I can see the vue application has loaded.
 
 4.1. As you can see it loads the Account and if you click on the link, it will redirect you to the detail.
+
+4.2. After you check that things are working in localhost, you can run the npm deploy in Terminal.
+
 
 5. Deploying to Salesforce
 
