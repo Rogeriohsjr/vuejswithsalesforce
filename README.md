@@ -20,6 +20,7 @@ How to add vue.js project into a lightning component.
 How to make the Lightning Component with Vue.js Project available in Visualforce page.
 > https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/components_visualforce.htm
 
+Basically I am wrapping the Vuejs from Lightning Component inside of a Aura Component, then creating the Aura Component inside of a VisualForce Page.
 
 
 # How to deploy this repository?
@@ -89,3 +90,5 @@ If you are seeing this error in the console:
 Refused to execute inline script because it violates the following Content Security Policy directive: "script-src 'self' chrome-extension: 'unsafe-eval' *.canary.lwc.dev *.visualforce.com https://ssl.gstatic.com/accessibility/ 'nonce-5d0083587d946675db08e85b9a0a85be418f4cfa9f24836aff0e1cfdaa50ec58'". Either the 'unsafe-inline' keyword, a hash ('sha256-CPrKGP6+1rDy4Zf0gWWPjMqAzvAOFS3hd9Ydbbdsa/Y='), or a nonce ('nonce-...') is required to enable inline execution.
 
 You can fix this by disabling the CSP in Setup >> Session Settings >> Search for Enable Stricter Content Security Policy >> Uncheck This and Save
+
+
